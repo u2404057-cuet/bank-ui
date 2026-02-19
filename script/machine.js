@@ -13,3 +13,15 @@ function setBalance(value){
     const input = document.getElementById('balance');
     input.innerText = value;
 }
+
+function show(id){
+  const cashout = document.getElementById('cashout');
+  const addMoney = document.getElementById('add-money');
+
+  cashout.classList.add('hidden');
+  addMoney.classList.add('hidden');
+
+  const selected = document.getElementById(id);
+  selected.classList.remove('hidden');
+  
+}
