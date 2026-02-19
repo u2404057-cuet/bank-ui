@@ -6,7 +6,7 @@ document.getElementById("login-btn").addEventListener("click", function () {
   const password = inputPassword.value;
   console.log(number, password);
 
-  if (number == "01797678762" && password == "1234") {
+  if (number == "11111111111" && password == "1234") {
     window.location.assign("./home.html");
   } else {
     alert("login failed");
